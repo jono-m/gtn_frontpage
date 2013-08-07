@@ -1,6 +1,6 @@
 #background {
   position: fixed;
-  top: -300px;
+  top: -500px;
   width: 100%;
   z-index: -1;
 }
@@ -89,4 +89,44 @@
   background-color: #FFF;
   padding: 100px;
   font-size: 50px;
+}
+
+@media all and (max-width: 1400px) {
+  #background {
+    top: -200px;
+  }
+  #hero_image {
+    width: 50%;
+  }
+  #login_slider {
+    width: 50%;
+  }
+}
+
+
+@media all and (max-width: 900px) {
+  #background {
+    top: 0;
+  }
+  #hero_image {
+    width: 70%;
+  }
+  #login_slider {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px), all and (max-width: 640px) {
+  #background {
+    display: none;
+  }
+  #pitch_1 {
+    background-color: #000;
+  }
+  #hero_image {
+    width: 90%;
+  }
+  #login_slider {
+    width: 90%;
+  }
 }
