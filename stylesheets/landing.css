@@ -8,14 +8,15 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: rgba(33, 33, 33, .7);
+  background-color: rgba(33, 33, 33, .9);
   z-index: 5;
 }
 #nav_pitch ul {
   padding: 0 5% 0 5%;
 }
 #nav_pitch li {
-  margin: 10px 20px 10px 0;
+  margin: 10px 0 10px 0;
+  padding: 0 10px 0 10px;
   opacity: 0.5;
   color: #FFF;
   line-height: 25px;
@@ -34,6 +35,20 @@
   opacity: 1.0;
   color: #f4731f;
 }
+.pitch {
+  width: 100%;
+}
+.pitch h1 {
+  font-family: Georgia;
+  font-size: 70px;
+  text-align: center;
+}
+.pitch h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
 #pitch_1{
   text-align: center;
   padding-top: 1px;
@@ -50,7 +65,16 @@
   margin-left: auto;
   margin-right: auto;
   width: 35%;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+}
+#login_slider blockquote {
+  margin-top: 100px;
+  color: #FFF;
+  text-align: left;
+}
+#login_slider blockquote footer {
+  margin-top: 20px;
+  color: #CCC;
 }
 #slide_login {
   text-align: center;
@@ -86,11 +110,67 @@
   padding: 10px;
 }
 #pitch_2 {
-  background-color: #FFF;
-  padding: 100px;
-  font-size: 50px;
+  position: relative;
+  padding: 100px 0 100px 0;
+  background-color: rgba(255, 255, 255, 1);
 }
-
+#pitch_2 h1 {
+  color: #555;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  border-bottom: 2px solid #CCC;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pitch_2 h1 span {
+  color: #9c4190;
+}
+#pitch_2_teacher_survey {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#pitch_2_teacher_survey h2 {
+  color: #AAA;
+  text-align: center;
+}
+#pitch_2_teacher_survey td {
+  vertical-align: middle;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.surveyPercentage {
+  width: 5.55%;
+}
+.surveyResult {
+  width: 30%;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 30px;
+  color: #555;
+  font-weight: bold;
+}
+.surveyPercentage span {
+  display: inline-block;
+  background-color: #f4731f;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+  text-align: center;
+}
+#hidden_result {
+  visibility: hidden;
+}
+#pitch_2_arrow {
+  margin-left: 15%;
+  top: -100px;
+}
 @media all and (max-width: 1400px) {
   #background {
     top: -200px;
@@ -103,6 +183,17 @@
   }
 }
 
+@media all and (max-width: 1000px) {
+  .surveyPercentage span {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  #pitch_2_teacher_survey td {
+    font-size: 15px;
+  }
+}
 
 @media all and (max-width: 900px) {
   #background {
@@ -113,6 +204,30 @@
   }
   #login_slider {
     width: 70%;
+  }
+  #pitch_2_teacher_survey table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .surveyPercentage span {
+    display: none;
+  }
+  #pitch_2_teacher_survey .surveyResult {
+    background-color: #f4731f;
+    color: #FFF;
+    font-size: 20px;
+    border-width: 5px 0 5px 0;
+    border: solid #FFF;
+    padding: 4%;
+  }
+  #pitch_2_teacher_survey #hidden_result {
+    background-color: transparent;
+    visibility: visible;
+    color: #AAA;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: Georgia;
   }
 }
 

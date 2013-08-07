@@ -6,3 +6,6 @@ a:hover {
   color: #398199;
   text-decoration: underline;
 }
+blockquote footer {
+  font-family: inherit;
+}
