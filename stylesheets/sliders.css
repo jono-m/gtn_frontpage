@@ -1,0 +1,10 @@
+.contentSlider {
+  overflow: hidden;
+}
+.contentSlider_inner {
+  position: relative;
+}
+.contentSlide {
+  float: left;
+  display: inline-block;
+}

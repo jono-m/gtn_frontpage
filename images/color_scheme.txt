@@ -1,0 +1,4 @@
+Purple: 9c4190
+Blue: 48a5c4
+Green: 69eb09
+Orange: f4731f

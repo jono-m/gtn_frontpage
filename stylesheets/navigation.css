@@ -1,0 +1,7 @@
+.nav li {
+  float: left;
+  cursor: pointer;
+}
+.navItem span {
+  float: left; 
+}
