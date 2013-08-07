@@ -28,6 +28,11 @@ function SetUpSliders() {
     slider_right_buttons.click(function() {
       GoToSlide(slider, slider_positions[slider]+1);
     });
+
+    var slider_first = $(this).find(".firstSlide");
+    if (slider_first.length == 1) {
+      GoToSlide(slider, slider_first.index());
+    }
   });
 }
 

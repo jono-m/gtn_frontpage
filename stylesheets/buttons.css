@@ -5,9 +5,9 @@
 }
 .button span {
   font-size: 30px;
-  line-height: 60px;
   margin-left: 30px;
   margin-right: 30px;
+  line-height: 60px;
   color: #FFF;
   text-transform: lowercase;
 }
@@ -17,14 +17,17 @@
 .relocateButton:hover {
   background-color: #398199;
 }
-.orangeButton {
+.actionButton {
   background-color: #f4731f;
+}
+.actionButton:hover {
+  background-color: #b35517;
 }
 .purpleButton {
   background-color: #9c4190;
 }
 .greenButton {
-  bac kground-color: #69eb09;
+  background-color: #69eb09;
 }
 .relocateButton span {
   margin-right: 15px;
@@ -52,7 +55,6 @@
 .relocateBack:hover {
   background-color: #444;
 }
-
 .buttonBox {
   display: inline-block;
   background-color: red;
@@ -65,4 +67,7 @@
 }
 .buttonBox .buttonBoxFirst {
   border: none;
+}
+.buttonBar .button {
+  float: left;
 }

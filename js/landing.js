@@ -2,6 +2,10 @@ var autoscrolling = false;
 
 $(document).ready(function() {
   SetUpNavPitch();
+  $(window).resize(function() {
+    $("#pitch_1").css('min-height', $(window).height());
+  })
+  $(window).resize();
 });
 
 function SetUpNavPitch() {

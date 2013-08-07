@@ -3,7 +3,6 @@ $(document).ready(function() {
 });
 
 function SetUpButtons() {
-
   var buttons = $(".button");
 
   // Set up the HTML for the buttons.

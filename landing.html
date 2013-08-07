@@ -4,14 +4,15 @@
 			<meta charset="utf-8" />
 			<title>Landing | Great Teaching Network</title>
 			<link rel="stylesheet" href="stylesheets/reset.css" />
+			<link rel="stylesheet" href="stylesheets/defaults.css" />
 			<link rel="stylesheet" href="stylesheets/fonts.css" />
 			<link rel="stylesheet" href="stylesheets/buttons.css" />
 			<link rel="stylesheet" href="stylesheets/navigation.css" />
 			<link rel="stylesheet" href="stylesheets/sliders.css" />
 			<link rel="stylesheet" href="stylesheets/landing.css" />
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-			<script src="js/buttons.js"></script>
 			<script src="js/sliders.js"></script>
+			<script src="js/buttons.js"></script>
 			<script src="js/landing.js"></script>
 		</head>
 		<body>
@@ -29,15 +30,20 @@
 						<div class="contentSlider" id="login_slider">
 							<div class="contentSlide">
 								<div class="buttonBox cf">
-									<div class="button relocateButton relocateRight buttonBoxFirst triggerSlideRight cf">Login</div>
+									<div class="button relocateButton relocateRight buttonBoxFirst triggerSlideRight cf" id="tmp">Log In</div>
 								</div>
 							</div>
-							<div class="contentSlide">
-								<input type="text" placeholder="Email."/>
-								<input type="password" placeholder="Password."/>
-								<div>
-									<div class="button relocateButton relocateLeft relocateBack triggerSlideLeft cf">nevermind</div>
-									<div class="button relocateButton relocateRight triggerSlideRight cf">Go!</div>
+							<div class="contentSlide" id="slide_login">
+								<div id="login_fields">
+									<input type="text" id="field_login_email" placeholder="Email."/>
+									<input type="password" id="field_login_password" placeholder="Password."/>
+								</div>
+								<div id="forgot_password_link">
+									<a href="#">I forgot my password!</a>
+								</div>
+								<div class="buttonBar cf">
+									<div class="button relocateButton relocateLeft relocateBack triggerSlideLeft cf">Back</div>
+									<div class="button actionButton triggerSlideRight buttonBoxFirst cf">Log In</div>
 								</div>
 							</div>
 						</div> <!-- login_slider -->
@@ -48,6 +54,7 @@
 						</div>
 					</div> <!-- pitch_1 -->
 					<div id="pitch_2">
+						<p>asdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdasdklja askdja lkdas dklja sdvv</p>
 					</div> <!-- pitch_2 -->
 				</div> <!-- content -->
 			</div> <!-- wrapper -->
